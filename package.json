@@ -1,0 +1,32 @@
+{
+  "name": "user-infor-v5",
+  "version": "1.0.0",
+  "description": "基于平台v5元数据的个人信息表单",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengaiyue/userInfoV5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengaiyue/userInfoV5/issues"
+  },
+  "homepage": "https://github.com/chengaiyue/userInfoV5#readme",
+  "devDependencies": {
+    "@talentui/webpack-config": "^5.0.0-beta.10",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
